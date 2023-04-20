@@ -60,5 +60,5 @@ class ChatBotServer(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     # 启动服务
     server = HTTPServer(('localhost', 5000), ChatBotServer)
-    print('Starting ChatGPT server, use <Ctrl-C> to stop')
+    print('ChatGPT server is running on http://20.27.50.141:5000')
     server.serve_forever()
